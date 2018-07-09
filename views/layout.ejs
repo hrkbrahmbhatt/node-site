@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Node Site</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-inverse">
+        <a href="/" class="navbar-brand">My Node site</a>
+        <ul class="nav navbar-nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/contact">Contact us</a></li>  <li><a href="/demo">Demo RTC</a>
+          </li><li><a href="/live">Livebrokers</a></li>
+        </ui>
+      </nav>
+</header>
+
+<!-- Main Content here -->
+
+<%- defineContent('hero') %>
+
+<main>
+  <div class="container">
+  <%- defineContent('body') %>
+  </div>
+</main>
+
+
+<footer>
+    Awesome Site. Copyright &copy; 2018
+</footer>
+</body>
+</html>
